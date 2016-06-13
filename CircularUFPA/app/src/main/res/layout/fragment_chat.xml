@@ -1,0 +1,28 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.ChatFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/teste"
+        android:text="Olá!"/>
+
+    <EditText
+        android:layout_width="278dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/chat_field"
+        android:hint="@string/placeholder"
+        android:layout_gravity="start|bottom" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/envio"
+        android:id="@+id/enviar"
+        android:layout_gravity="end|bottom" />
+
+</FrameLayout>
